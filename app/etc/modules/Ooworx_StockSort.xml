@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ooworx_StockSort>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Ooworx_StockSort>
+    </modules>
+</config>

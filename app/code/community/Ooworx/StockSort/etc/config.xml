@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+  <!-- Ooworx - StockSort - 0.1.0 -->
+  <modules>
+    <Ooworx_StockSort>
+      <version>0.1.0</version>
+    </Ooworx_StockSort>
+  </modules>
+  <!-- GLOBAL -->
+  <global>
+    <!-- Model -->
+    <models>
+      <stocksort>
+	<class>Ooworx_StockSort_Model</class>
+      </stocksort>
+    </models>
+  </global>
+  <!-- FRONTEND -->
+  <frontend>
+    <events>
+      <catalog_product_collection_load_before>
+	<observers>
+	  <stocksort_catalog_product_collection_load_before>
+	    <type>singleton</type>
+	    <class>Ooworx_StockSort_Model_Observer</class>
+	    <method>catalogProductCollectionLoadBefore</method>
+	  </stocksort_catalog_product_collection_load_before>
+	</observers>
+      </catalog_product_collection_load_before>
+    </events>
+  </frontend>
+  <!-- DEFAULT -->
+  <default>
+    <cataloginventory>
+      <options>
+	<stocksort>1</stocksort>
+      </options>
+    </cataloginventory>
+  </default>
+</config>
