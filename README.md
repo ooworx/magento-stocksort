@@ -15,6 +15,12 @@ If you have more ideas, please contribute :)
 - Copy app/ directory into your magento root
 - Check System > Configuration
  
+## Usage
+
+You can enable/disable sorting in : System > Configuration > Catalog > Inventory > Sort out of stock
+
+Note : If you have " Display Out of Stock Products" with value equal to "No", this extension do nothing (indeed).
+
 ## Compatibility
 
 For now it was only tested on 1.9
