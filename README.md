@@ -23,7 +23,11 @@ Note : If you have " Display Out of Stock Products" with value equal to "No", th
 
 ## Compatibility
 
-For now it was only tested on 1.9
+Tested 
+- 1.6.X
+- 1.7.X:
+- 1.8.X
+- 1.9.X
 
 ## Author(s)
 
